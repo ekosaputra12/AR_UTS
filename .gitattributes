@@ -1,6 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.tgzgit filter=lfs diff=lfs merge=lfs -text
-add filter=lfs diff=lfs merge=lfs -text
-*.tgz filter=lfs diff=lfs merge=lfs -text
